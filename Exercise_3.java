@@ -60,7 +60,7 @@ public class LinkedList {
    
         // Print the data at current node 
         while(current != null) {
-            System.out.println(current.data + " ");
+            System.out.println(current.data);
             // Go to next node
             current = current.next;
         }    
